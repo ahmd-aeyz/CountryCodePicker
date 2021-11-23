@@ -70,14 +70,14 @@ class _SelectionDialogState extends State<SelectionDialog> {
               BoxDecoration(
                 color: widget.backgroundColor ?? Colors.white,
                 borderRadius: BorderRadius.all(Radius.circular(8.0)),
-                boxShadow: [
-                  BoxShadow(
-                    color: widget.barrierColor ?? Colors.grey.withOpacity(1),
-                    spreadRadius: 5,
-                    blurRadius: 7,
-                    offset: Offset(0, 3), // changes position of shadow
-                  ),
-                ],
+                // boxShadow: [
+                //   BoxShadow(
+                //     color: widget.barrierColor ?? Colors.grey.withOpacity(1),
+                //     spreadRadius: 5,
+                //     blurRadius: 7,
+                //     offset: Offset(0, 3), // changes position of shadow
+                //   ),
+                // ],
               ),
           child: Column(
             mainAxisSize: MainAxisSize.min,
