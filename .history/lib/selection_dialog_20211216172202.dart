@@ -100,7 +100,6 @@ class _SelectionDialogState extends State<SelectionDialog> {
                 ),
               Expanded(
                 child: ListView(
-                  physics: const NeverScrollableScrollPhysics(),
                   children: [
                     widget.favoriteElements.isEmpty
                         ? const DecoratedBox(decoration: BoxDecoration())
