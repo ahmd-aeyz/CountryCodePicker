@@ -178,12 +178,12 @@ class _SelectionDialogState extends State<SelectionDialog> {
       return widget.emptySearchBuilder!(context);
     }
 
-    final text = CountryLocalizations.of(context)?.translate('no_country') ??
+    final t = CountryLocalizations.of(context)?.translate('no_country') ??
         'No country found';
     final textDirection = Directionality.of(context);
     return Center(
       child: Text(textDirection == TextDirection.ltr
-          ? text
+          ? t
           : "لم يتم العثور علي بلد بهذا الاسم"),
     );
   }
